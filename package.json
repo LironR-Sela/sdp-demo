@@ -1,0 +1,24 @@
+{
+  "name": "SDP2K18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "integration": "jest tests/integration/*",
+    "test": "jest tests/unit/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "serverless-offline": "^3.31.3",
+    "supertest": "^3.3.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.382.0",
+    "serverless-dynamodb-client": "0.0.2",
+    "serverless-dynamodb-local": "^0.2.35",
+    "uuid": "^3.3.2"
+  }
+}
